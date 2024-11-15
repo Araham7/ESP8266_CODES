@@ -1,4 +1,5 @@
 /*
+NOTE: Is code me sabse pehle esp8266 module wifi se connect hoga aur phir ye server ki tarhe behave karega.
 *
 ***** This code will handel the httpGET req.body JSON-data at root("/") route .
 ***** This code will handel the httpPOST req.params data at ("/data") route .
