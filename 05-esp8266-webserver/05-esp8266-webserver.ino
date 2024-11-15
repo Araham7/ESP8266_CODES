@@ -1,13 +1,6 @@
 /*
 *
-***** This code will handel the httpGET req.params data at root("/") route .
-***** This code will handel the httpPOST req.params data at ("/data") route .
-*
-*/
-
-/*
-*
-***** This code will handel the httpGET req.params data at root("/") route .
+***** This code will handel the httpGET req.body JSON-data at root("/") route .
 ***** This code will handel the httpPOST req.params data at ("/data") route .
 *
 */
