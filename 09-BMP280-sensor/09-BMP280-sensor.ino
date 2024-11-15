@@ -2,6 +2,9 @@
 NOTE : 
 (1). This code will print the Temperature in *C, *F and pressure in Pascal (Pa) and altitude in meters (m).
 (2). We are using the "Adafruit_BMP280.h" library.
+
+// Wiring : 
+// SDA = GPIO4 (D2), SCL = GPIO5 (D1) , VCC = 3.3volt and GND = G
 */
 
 #include <Wire.h>
