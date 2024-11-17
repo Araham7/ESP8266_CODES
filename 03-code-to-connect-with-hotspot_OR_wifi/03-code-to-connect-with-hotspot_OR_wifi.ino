@@ -1,4 +1,5 @@
 #include <ESP8266WiFi.h>
+#include <ESP8266HTTPClient.h>
 
 // Replace with your Wi-Fi credentials
 const char* ssid = "Your_Hotspot_SSID"; // your hotspot name.
