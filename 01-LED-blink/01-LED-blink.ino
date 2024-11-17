@@ -1,9 +1,10 @@
 /* 
+*
  ***Important Notes:---
  *  
  *  (1). All digital pins of the ESP8266 are "Active-Low". 
- *       This means that setting a digital pin to HIGH will result in a low voltage, and vice versa.
- *  (2). The "BUILTIN_LED" pin on the ESP8266 can be referenced as both "D4" and "2".
+ *       This means that setting a digital pin to HIGH will result in a low voltage, and vice versa. 
+ *  (2). The "BUILTIN_LED" pin on the ESP8266 can be referenced as both "D4" and "2". 
  *
  */
 
