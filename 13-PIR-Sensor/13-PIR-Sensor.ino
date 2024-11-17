@@ -1,10 +1,11 @@
 /*
 *
 *Wiring : VCC = 3volt , GND = GND , OUT = D0
-*
+***************************************************************************************************
 * NOTE : 
 *
 *** PIR-Sensor(Passive Infrared Sensor) : A PIR sensor (Passive Infrared Sensor) is an electronic sensor that detects infrared (IR) radiation emitted by objects, typically used for motion detection. It is widely used in security systems, automatic lighting, and other applications that require motion sensing.
+*
 */
 
 
