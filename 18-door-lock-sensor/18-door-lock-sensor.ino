@@ -5,7 +5,7 @@
  *
 */
 
-#define DOOR_SENSOR_PIN D0 // Define the digital pin for the door sensor
+#define DOOR_SENSOR_PIN D1 // Define the digital-pin(except D0) for the door sensor
 
 int doorState; // Variable to store the door sensor state
 
