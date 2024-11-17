@@ -1,5 +1,5 @@
 /*
- *
+ * **Wiring :
  * - Connect the door sensor one-leg to pin D1 (or any other available digital pin-of-esp8266 except D0-pin).
  * - Connect the door sensor another-leg to pin GND.
  *
