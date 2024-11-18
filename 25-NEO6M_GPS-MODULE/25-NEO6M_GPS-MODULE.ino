@@ -1,3 +1,20 @@
+/*
+Wiring for NEO-6M GPS module and ESP8266 (NodeMCU):
+---------------------------------------------------
+1. GPS TX (Transmit)  ---> ESP8266 RX (D2 or GPIO4)  
+   (GPS module sends data to ESP8266, so connect GPS TX to ESP8266 RX)
+
+2. GPS RX (Receive)  ---> ESP8266 TX (D1 or GPIO5)  
+   (ESP8266 sends data to GPS, so connect ESP8266 TX to GPS RX)
+
+3. GPS GND (Ground)  ---> ESP8266 GND  
+   (Connect the ground pin of GPS to ESP8266 ground)
+
+4. GPS VCC (Power)  ---> 5V
+
+Ensure that the GPS module is properly powered and the wiring is correct for communication.
+*/
+
 #include <SoftwareSerial.h>  // Library for software serial communication
 #include <TinyGPS++.h>       // Library for parsing GPS data
 
