@@ -8,19 +8,32 @@ NOTE :
 
 #include <SoftwareSerial.h>
 
-String msg;
+// Initialize SoftwareSerial with RX and TX pins
+SoftwareSerial mySerial(D2, D3); // Rx (D2), Tx (D3)
 
-SoftwareSerial mySerial(D2, D3); // Rx, Tx
-
-void setup(){
-    mySerial.begin(9600);
-    Serial.begin(9600);
+void setup() {
+    mySerial.begin(9600); // Start SoftwareSerial at 9600 baud
+    Serial.begin(9600);   // Start hardware Serial at 9600 baud
 }
 
-void loop(){
-    if (mySerial.available() > 0) {  // Fixing typo: available() and checking if data is available
-        msg = mySerial.readString();  // Fixing typo: readString()
-        Serial.print("Message from Phone: ");
-        Serial.println(msg);  // Added println to print the message in a new line
+void loop() {
+    String msg; // Variable to store received message
+    
+    Serial.println("Enter your message!"); // Prompt user for input
+
+    // Wait for input from the Serial Monitor
+    while (mySerial.available() == 0) {
+        // Waiting for user input
+        delay(200); // Avoid spamming the Serial Monitor
+    }
+
+    // If there is incoming data on the SoftwareSerial
+    if (mySerial.available() > 0) {
+        msg = mySerial.readString(); // Read the incoming message.
+        msg.trim(); // Trim leading and trailing whitespace from the msg.
+        Serial.print("Message from Phone : ");
+        Serial.println(msg); // Display the message on the Serial Monitor.
     }
 }
+
+
