@@ -1,3 +1,10 @@
+/*
+*
+NOTE :
+    *** Tx(BT) = D2(ESP) , Rx(BT) = D3(ESP) , Vcc(BT) = (3.6v to 5v) , Gnd(BT) = GND(ESP).
+*
+ */
+
 #include <SoftwareSerial.h>
 
 String msg;
