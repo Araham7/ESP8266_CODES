@@ -12,8 +12,12 @@ NOTE :---
 // OLED_VCC   ==> 3.3V
 // OLED_GND   ==> GND
 *
-*
 */
+
+/*
+* Reference: https://www.electronicshub.org/nodemcu-esp8266-oled-display/#Displaying_Text
+*/
+
 #include <SPI.h>
 #include <Wire.h>
 #include <Adafruit_GFX.h>

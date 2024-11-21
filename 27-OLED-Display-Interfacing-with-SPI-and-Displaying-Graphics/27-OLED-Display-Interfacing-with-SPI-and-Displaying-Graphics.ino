@@ -12,7 +12,6 @@ NOTE :---
 // OLED_VCC   ==> 3.3V
 // OLED_GND   ==> GND
 *
-*
 */
 
 /*
