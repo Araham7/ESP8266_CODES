@@ -1,8 +1,13 @@
 /*
-*** Here we will use the GFX library to display some basic shapes like rectangle, filled rectangle, round rectangle, filled round rectangle, circle, filled circle, triangle and filled triangle.
+ * Using the GFX library, we will display basic shapes such as:
+ * - Rectangle and filled rectangle
+ * - Rounded rectangle and filled rounded rectangle
+ * - Circle and filled circle
+ * - Triangle and filled triangle
+ *
+ * Reference: https://www.electronicshub.org/nodemcu-esp8266-oled-display/#Displaying_Graphics
+ */
 
-reference : https://www.electronicshub.org/nodemcu-esp8266-oled-display/#Displaying_Graphics
-*/
 
 
 
