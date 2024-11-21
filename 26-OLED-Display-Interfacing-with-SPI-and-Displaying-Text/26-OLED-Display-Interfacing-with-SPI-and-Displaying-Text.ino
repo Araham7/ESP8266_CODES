@@ -2,6 +2,8 @@
         *************************** Wiring ***************************************
                  Pin Definitions for OLED and ESP8266 (NodeMCU)
 
+NOTE :---
+
 // OLED_RESET ==> GPIO-4  (D2)
 // OLED_DC/D0    ==> GPIO-5  (D1)
 // OLED_MOSI/D1  ==> GPIO-13 (D7)
