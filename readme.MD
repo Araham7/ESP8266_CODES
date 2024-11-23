@@ -67,3 +67,8 @@ To use the codes in this repository, you need:
 ## About
 
 These examples are created to demonstrate the core functionality of the ESP8266. Feel free to customize and extend the codes for your projects.
+
+# License
+
+This project is licensed under the GNU License - see the [LICENSE](./LICENSE) file for details.
+
